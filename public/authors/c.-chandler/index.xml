@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C. Chandler | </title>
+    <link>/authors/c.-chandler/</link>
+      <atom:link href="/authors/c.-chandler/index.xml" rel="self" type="application/rss+xml" />
+    <description>C. Chandler</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Pascar 2019</copyright><lastBuildDate>Mon, 03 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>C. Chandler</title>
+      <link>/authors/c.-chandler/</link>
+    </image>
+    
+    <item>
+      <title>A bioinformatics approach to identifying Wolbachia infections in arthropods</title>
+      <link>/publication/wolbachia-peerj/</link>
+      <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/wolbachia-peerj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Identification of novel Wolbachia infections in arthropods using publicly accessible next-generation sequencing data</title>
+      <link>/talk/quest/</link>
+      <pubDate>Wed, 05 Apr 2017 13:00:00 +0000</pubDate>
+      <guid>/talk/quest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testing for prevalence of Wolbachia in the terrestrial isopod species Porcellio laevis and Trachelipus rathkei</title>
+      <link>/talk/sicb-2017/</link>
+      <pubDate>Fri, 06 Jan 2017 13:00:00 +0000</pubDate>
+      <guid>/talk/sicb-2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

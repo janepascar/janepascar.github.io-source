@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | </title>
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Pascar 2019</copyright><lastBuildDate>Thu, 08 Aug 2019 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>/authors/</link>
+    </image>
+    
+    <item>
+      <title>H. Middleton&lt;sup&gt;&amp;dagger;&lt;/sup&gt;</title>
+      <link>/authors/h.-middletonsupdagger/sup/</link>
+      <pubDate>Thu, 08 Aug 2019 13:00:00 +0000</pubDate>
+      <guid>/authors/h.-middletonsupdagger/sup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>J. Pascar</title>
+      <link>/authors/j.-pascar/</link>
+      <pubDate>Thu, 08 Aug 2019 13:00:00 +0000</pubDate>
+      <guid>/authors/j.-pascar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S. Dorus</title>
+      <link>/authors/s.-dorus/</link>
+      <pubDate>Thu, 08 Aug 2019 13:00:00 +0000</pubDate>
+      <guid>/authors/s.-dorus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C. Chandler</title>
+      <link>/authors/c.-chandler/</link>
+      <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/c.-chandler/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>E. Watson</title>
+      <link>/authors/e.-watson/</link>
+      <pubDate>Mon, 14 May 2018 13:00:00 +0000</pubDate>
+      <guid>/authors/e.-watson/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S. Edmands</title>
+      <link>/authors/s.-edmands/</link>
+      <pubDate>Mon, 14 May 2018 13:00:00 +0000</pubDate>
+      <guid>/authors/s.-edmands/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;I am a second year PhD student studying host-microbe interactions. I am particularly interested in microbial community interactions and composition dynamics in the presence of host pathogens.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,6 @@
+theme = "hugo-academic"
+baseURL = "http://janepascar.github.io/"
+languageCode = "en-us"
+title = "Personal Website"
+description = "My personal website"
+publishDir = "../janepascar.github.io"

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Presentations | </title>
+    <link>/talk/</link>
+      <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Presentations</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Pascar 2019</copyright><lastBuildDate>Thu, 08 Aug 2019 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Presentations</title>
+      <link>/talk/</link>
+    </image>
+    
+    <item>
+      <title>Microbiome patterns in Aedes aegypti mosquitoes transinfected with Wolbachia</title>
+      <link>/talk/syracuse-undergrad-2019/</link>
+      <pubDate>Thu, 08 Aug 2019 13:00:00 +0000</pubDate>
+      <guid>/talk/syracuse-undergrad-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Properties of sex-biased gene expression in the absence of sex chromosomes</title>
+      <link>/talk/peqg-2018/</link>
+      <pubDate>Mon, 14 May 2018 13:00:00 +0000</pubDate>
+      <guid>/talk/peqg-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Identification of novel Wolbachia infections in arthropods using publicly accessible next-generation sequencing data</title>
+      <link>/talk/quest/</link>
+      <pubDate>Wed, 05 Apr 2017 13:00:00 +0000</pubDate>
+      <guid>/talk/quest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testing for prevalence of Wolbachia in the terrestrial isopod species Porcellio laevis and Trachelipus rathkei</title>
+      <link>/talk/sicb-2017/</link>
+      <pubDate>Fri, 06 Jan 2017 13:00:00 +0000</pubDate>
+      <guid>/talk/sicb-2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

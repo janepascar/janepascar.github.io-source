@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>S. Edmands | </title>
+    <link>/authors/s.-edmands/</link>
+      <atom:link href="/authors/s.-edmands/index.xml" rel="self" type="application/rss+xml" />
+    <description>S. Edmands</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Pascar 2019</copyright><lastBuildDate>Mon, 14 May 2018 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>S. Edmands</title>
+      <link>/authors/s.-edmands/</link>
+    </image>
+    
+    <item>
+      <title>Properties of sex-biased gene expression in the absence of sex chromosomes</title>
+      <link>/talk/peqg-2018/</link>
+      <pubDate>Mon, 14 May 2018 13:00:00 +0000</pubDate>
+      <guid>/talk/peqg-2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
