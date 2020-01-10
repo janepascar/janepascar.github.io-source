@@ -14,7 +14,7 @@ role: PhD Student
 
 # Organizations/Affiliations
 organizations:
-- name: Center for Reproductive Evoultion
+- name: Center for Reproductive Evolution
   url: "http://cre.syr.edu"
 - name: Department of Biology, Syracuse University
   url: ""

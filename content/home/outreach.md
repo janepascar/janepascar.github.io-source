@@ -23,7 +23,7 @@ date_format = "Jan 2006"
   organization = "[Letters to a Pre-Scientist](https://www.prescientist.org/)"
   certificate_url = ""
   date_start = "2019-09-01"
-  date_end = "2019-06-01"
+  date_end = "2020-06-01"
   description = "A program designed to pair middle school students from low-income schools with scientists at all career levels. Over the course of an academic year I exchanged letters with student discussing what college/graduate school is like, overcoming obstacles, and careers."
 
 +++
