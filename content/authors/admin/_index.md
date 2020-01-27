@@ -71,8 +71,8 @@ email: "japascar@syr.edu"
 
 I study the tripartite relationship between mosquito genetics, microbiome composition and *Plasmodium*, the protozoan parasite responsible for causing malaria. I am most interested in understanding and quantifying systemic differences in the microbiome between infected and uninfected individuals. To address these questions I use a combination of computational biology, biogeography, and microbial ecology.  
 
-Currently, I am a PhD student in the Center for Reproductive Biology and I am advised by Steve Dorus.  
+Currently, I am a PhD student in the [Center for Reproductive Evolution](https://cre.syr.edu/) and I am advised primarily by [Steve Dorus](https://thecollege.syr.edu/people/faculty/dorus-steve/). I am funded by a Syracuse University STEM Research Fellowship and an NSF Graduate Research Fellowship.  
 
-Prior to beginning my PhD, I recieved my BSc in Zoology from SUNY Oswego where I was advised by Chris Chandler. At Oswego, I studied reproductive endosymbiont genomics and sex-chromosome evolution in terrestrial isopods.   
+Prior to beginning my PhD, I recieved my BSc in Zoology from SUNY Oswego where I was advised by [Chris Chandler](http://chandlerlab.com/). At Oswego, I studied reproductive endosymbiont genomics and sex-chromosome evolution in terrestrial isopods.   
 
-Afterwards, I was a research technician at the University of Southern California under Suzanne Edmands where I assisted on a project exploring mito-nuclear interactions and sex-biased gene expression in intertidal copepods. 
+Afterwards, I was a research technician at the University of Southern California under [Suzanne Edmands](https://dornsife.usc.edu/labs/edmands/) where I assisted on a project exploring mito-nuclear interactions and sex-biased gene expression in intertidal copepods. 

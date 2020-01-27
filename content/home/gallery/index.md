@@ -42,6 +42,11 @@ caption = "2018 LA Science March"
 album = "gallery"
 image = "sicb.JPG"
 caption = "Presenting at SICB 2017 in New Orleans"
+
+[[gallery_item]]
+album = "gallery"
+image = "hollywood.JPG"
+caption = "The Hollywood Sign from Griffith Observatory"
 +++
 
 {{< gallery >}} 
