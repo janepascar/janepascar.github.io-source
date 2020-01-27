@@ -47,6 +47,12 @@ caption = "Presenting at SICB 2017 in New Orleans"
 album = "gallery"
 image = "hollywood.JPG"
 caption = "The Hollywood Sign from Griffith Observatory"
+
+[[gallery_item]]
+album = "gallery"
+image = "grandcanyon.JPG"
+caption = "Grand Canyon National Park"
+
 +++
 
 {{< gallery >}} 
