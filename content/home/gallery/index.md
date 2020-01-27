@@ -50,7 +50,7 @@ caption = "The Hollywood Sign from Griffith Observatory"
 
 [[gallery_item]]
 album = "gallery"
-image = "grandcanyon.JPG"
+image = "grandcanyon.png"
 caption = "Grand Canyon National Park"
 
 +++

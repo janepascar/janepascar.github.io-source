@@ -1,5 +1,5 @@
 ---
-title: "Discovering your course with a chronic illness"
+title: "Staying on course with a chronic illness"
 summary: "Advice for transitioning to and navigating graduate school while living with a chronic illness."
 author: Jane Pascar
 date: 2020-01-10
@@ -12,7 +12,7 @@ knitr::opts_chunk$set(collapse = TRUE)
 ```
 After almost a year of symptoms, many lab tests, MRIs, CT scans, colonoscopies, and two surgeries, in April 2018 I was officially diagnosed with [Crohn's Disease](https://www.mayoclinic.org/diseases-conditions/crohns-disease/symptoms-causes/syc-20353304) and started a combined [Humira](https://en.wikipedia.org/wiki/Adalimumab) and [6-mercaptopurine](https://en.wikipedia.org/wiki/Mercaptopurine) regimen. In November 2019 I developed a high level of anti-Humira antibodies and my Humira drug levels were no longer detectable. Now, I receive [Inflectra](https://www.rxlist.com/inflectra-side-effects-drug-center.htm) infusions every 8 weeks and continue to take 6MP daily.
 
-<img src="./../2020-01-10.jpeg" alt="drawing" width="300"/>
+<img src="./../2020-01-10.jpeg" alt="I am sitting in an infusion center with an IV. Stickers on the picture saying love your guts and #IBDvisible" width="300"/>
 
 At the time of my diagnosis, I was living in Los Angeles working as a research tech at the University of Southern California after graduating from SUNY Oswego in 2017. I dedicated a year after undergrad to gaining more lab experience before eventually going back to school for my PhD.  
 
