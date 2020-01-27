@@ -75,4 +75,4 @@ Currently, I am a PhD student in the Center for Reproductive Biology and I am ad
 
 Prior to beginning my PhD, I recieved my BSc in Zoology from SUNY Oswego where I was advised by Chris Chandler. At Oswego, I studied reproductive endosymbiont genomics and sex-chromosome evolution in terrestrial isopods.   
 
-Afterwards, I was a research technician at University of Southern California under Suzanne Edmands where I assisted on a project exploring mito-nuclear interactions and sex-biased gene expression in intertidal copepods. 
+Afterwards, I was a research technician at the University of Southern California under Suzanne Edmands where I assisted on a project exploring mito-nuclear interactions and sex-biased gene expression in intertidal copepods. 

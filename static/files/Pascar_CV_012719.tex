@@ -1,0 +1,294 @@
+% Dr. Geoff Boeing - Curriculum Vitae
+% Copyright 2019 Geoff Boeing
+% Email: boeing@usc.edu
+% Web: https://geoffboeing.com/
+% Repo: https://github.com/gboeing/cv
+
+\documentclass[12pt,letterpaper]{report}
+
+\usepackage[T1]{fontenc} % output T1 font encoding (8-bit) so accented characters are a single glyph
+\usepackage[utf8]{inputenc} % allow input of utf-8 encoded characters
+\usepackage[strict,autostyle]{csquotes} % smart and nestable quote marks
+\usepackage[USenglish]{babel} % automatically regionalize hyphens, quote marks, etc
+\usepackage{microtype} % improves text appearance with kerning, etc
+\usepackage{datetime} % enable formatting of date output
+\usepackage{tabto} % make nice tabbing
+\usepackage{hyperref} % enable hyperlinks and pdf metadata
+\usepackage{geometry} % manually set page margins
+\usepackage{enumitem} % enumerate with [resume] option
+\usepackage{titlesec} % allow custom section fonts
+
+% what is your name?
+\newcommand{\myname}{Jane A. Pascar}
+
+% define a default font face and set it as the body font
+\usepackage{crimson} % document's serif font
+\usepackage{helvet}  % document's sans serif font
+
+% define how far to tab for list items with left-aligned date - different font faces need different widths
+\newcommand{\listtabwidth}{1.75cm}
+
+% set name font to title the document
+\newcommand{\namefont}[1]{{\normalfont\bfseries\Huge{#1}}}
+
+% set section heading fonts and before/after spacing
+\SetTracking{encoding=*}{20}
+\titleformat{\section}{\sffamily\small\bfseries\lsstyle\uppercase}{}{}{}{}
+\titlespacing{\section}{0pt}{24pt plus 4pt minus 2pt}{12pt plus 2pt minus 2pt}
+
+% set subsection heading fonts and before/after spacing
+\titleformat{\subsection}{\sffamily\footnotesize\bfseries}{}{}{}{}
+\titlespacing{\subsection}{0pt}{12pt plus 4pt minus 2pt}{8pt plus 2pt minus 2pt}
+
+% set page margins
+\geometry{body={6.5in, 9.0in},
+    left=1.0in,
+    top=1.0in}
+
+% prevent paragraph indentation
+\setlength\parindent{0em}
+
+% define space between list items
+\newcommand{\listitemspace}{0.15em}
+
+% make unordered lists without bullets and use compact spacing
+\renewenvironment{itemize}
+{\begin{list}{}{\setlength{\leftmargin}{0em}
+            \setlength{\parskip}{0em}
+            \setlength{\itemsep}{\listitemspace}
+            \setlength{\parsep}{\listitemspace}}}
+    {\end{list}}
+
+% make tabbed lists so content is left-aligned next to years
+\TabPositions{\listtabwidth}
+\newlist{tablist}{description}{3}
+\setlist[tablist]{leftmargin=\listtabwidth,
+    labelindent=0em,
+    topsep=0em,
+    partopsep=0em,
+    itemsep=\listitemspace,
+    parsep=\listitemspace,
+    font=\normalfont}
+
+% print the month and year only when using \today
+\newdateformat{monthyeardate}{\monthname[\THEMONTH] \THEYEAR}
+
+% define hyperlink appearance and metadata for pdf properties
+\hypersetup{
+    colorlinks  = true,
+    urlcolor    = black,
+    pdfauthor   = {\myname},
+    pdfkeywords = {},
+    pdftitle    = {\myname: Curriculum Vitae},
+    pdfsubject  = {Curriculum Vitae},
+    pdfpagemode = UseNone
+}
+
+\begin{document}
+    \raggedright
+
+    % display name as the document title
+    \namefont{\myname}
+
+    % contact info
+    \vspace{1em}
+    \begin{minipage}[t]{0.68\textwidth}
+        Center for Reproductive Evolution \\
+        Department of Biological Sciences \\
+        Syracuse University
+        \\Syracuse, New York
+    \end{minipage}
+    \begin{minipage}[t]{0.31\textwidth}
+        Email: \href{mailto:japascar@syr.edu}{japascar@syr.edu} \\
+        Web: \href{http://janepascar.github.io}{janepascar.github.io} \\
+        Twitter: \href{https://twitter.com/janepascar}{@janepascar} \\
+        Github: \href{https://github.com/janepascar}{@janepascar}
+    \end{minipage}
+    \vspace{0.5em}
+    
+    
+    
+    \section*{Research Interests}
+
+    \begin{itemize}
+
+        \item I study the tripartite relationship between mosquito genetics, microbiome composition and Plasmodium, the protozoan parasite responsible for causing malaria. I am most interested in understanding and quantifying systemic differences in the microbiome between infected and uninfected individuals. To address these questions I use a combination of computational biology, biogeography, and microbial ecology.
+
+
+    \end{itemize}
+
+
+    \section*{Education}
+
+    \begin{tablist}
+
+        \item[2018--] \tab Ph.D. in Biological Sciences \\
+        				   Syracuse University, Center for Reproductive Evolution
+        
+        \item[2017] \tab B.Sc. in Zoology,  \textit{Cum laude} with University Honors \\
+        			     State University of New York at Oswego
+
+    \end{tablist}
+
+    \section*{Research Experience}
+
+    \begin{tablist}
+    
+    	\item[2018--] \tab Graduate Research, Syracuse University, Center for Reproductive Evolution \\
+    					   Advisor: Steve Dorus \\
+    					   - Quantifying natural microbiome variation in the presence of pathogenic parasites%:
+
+        \item[2017--18] \tab Research Technician, University of Southern California, Marine and Environmental Biology \\
+                            PI: Suzanne Edmands \\
+                            - Hybrid incompatibilities and the evolution of mito-nuclear conflicts%:
+
+        \item[2016--17] \tab Undergraduate Honors Thesis Research, SUNY Oswego, Department of Biological Sciences \\
+                            Advisor: Chris Chandler \\
+                            - Taxonomically diverse survey of {{\emph{Wolbachia}}} presence and genomic analyses%:
+		
+		\item[2016] \tab Visiting Scholar, Université de Poitiers, Laboratory of Ecological and Biological Interactions \\
+                            PI: Dr. Richard Cordaux \\
+                            - Surgical sex-reversal of terrestrial isopods and sex chromosome evolution%: Both female (ZW/ZZ) and male (XY/XX) heterogametic systems exist within terrestrial isopod species. Furthermore, the sex chromosomes are thought to be relatively young and homomorphic so classical cytogenetic analyses are difficult. By surgically implanting a male-specific androgenic gland into a juvenile female, a neo-male is produced (genetically female/phenotypically male). By crossing these neo-males with their sisters (same sex chromosome genotype) and analyzing the progeny sex-ratio, the heterogametic system can be inferred.
+
+    \end{tablist}
+
+
+    \section*{Publications}
+
+    \subsection*{Peer-Reviewed Articles}
+
+    \begin{itemize}
+    	
+    	\item[1.] \textbf{Pascar JA} and Chandler CH. 2018. A bioinformatics approach to identifying {{\emph{Wolbachia}}} infections in arthropods. \textit{PeerJ} 6:e5486. \href{https://doi.org/10.7717/peerj.5486}{doi:10.7717/peerj.5486}
+    	
+    \end{itemize}
+
+    %\subsection*{Submitted}
+    
+    %\begin{itemize}
+    	
+    %	\item[XX.] Russell A, Borrelli S, Fontana R, Laricchiuta J, \textbf{Pascar JA}, Becking T, Giraud I, Cordaux R, and Chandler CH. 20XX. Evolutionary transition to XY sex chromosomes associated with Y-linked duplication of a male hormone gene in a terrestrial isopod. Submitted to \textit{Genome Biology and Evolution}
+    	
+    %\end{itemize}
+
+    \section*{Conference Presentations}
+
+    \subsection*{Talks}
+
+    \begin{tablist}
+
+        \item[2020] \tab Russell A, Borrelli S, Fontana R, Laricchiuta J, \textbf{Pascar JA}, Becking T, Giraud I, Cordaux R, Chandler CH*. A transition to XY sex chromosomes associated with Y-linked duplication of a male hormone gene in a terrestrial isopod. Society for Integrative and Comparative Biology (SICB), Austin, TX
+        
+        %\item[2019] \tab \textbf{Pascar JA*} and Dorus S. Characterizing microbiome complexity in the African mosquito {{\emph{Anopheles gambiae.}}} Departmental Seminar, Syracuse, NY
+        
+        \item[2017] \tab \textbf{Pascar JA*} and Chandler CH. Identification of novel {{\emph{Wolbachia}}} infections in arthropods using publicly accessible next-generation sequencing data. Quest, Oswego, NY \textit{• Awarded Sigma Xi/ORSP Research Award}
+
+    \end{tablist}
+
+    \subsection*{Posters}
+
+    \begin{tablist}
+        
+        \item[2019] \tab Middleton H†*, \textbf{Pascar JA}, Dorus S. Microbiome patterns in {{\emph{Aedes aegypti}}} mosquitoes transinfected with {{\emph{Wolbachia}}}. Syracuse University Summer Undergraduate Research Conference, Syracuse, NY
+        
+        %\item[2019] \tab \textbf{Pascar JA*} and Dorus S. Characterizing microbiome complexity in the malaria vector {{\emph{Anopheles gambiae.}}} Departmental Seminar, Syracuse, NY
+        
+        \item[2018] \tab \textbf{Pascar JA*}, Watson ET, Edmands S. Properties of sex-biased gene expression in the absence of sex chromosomes. Population, Evolution and Quantitative Genetics (PEQG), Madison, WI
+        
+        \item[2017] \tab \textbf{Pascar JA*} and Chandler CH. Testing for prevalence of {{\emph{Wolbachia}}} in the terrestrial isopod species {{\emph{Porcellio laevis}}} and {{\emph{Trachelipus rathkei}}}. Society for Integrative and Comparative Biology (SICB), New Orleans, LA
+        
+        \item[2017] \tab \textbf{Pascar JA*} and Chandler CH. Testing for prevalence of {{\emph{Wolbachia}}} in the terrestrial isopod species {{\emph{Porcellio laevis}}} and {{\emph{Trachelipus rathkei}}}. RISE Scholarly \& Creative Activities Symposium, Oswego, NY
+        
+        \item * indicates presenter
+        \item † indicates undergraduate advisee
+
+        
+    \end{tablist}
+
+   
+    \section*{Grants and Awards}
+
+    \subsection*{Awards and Honors}
+
+    \begin{tablist}
+
+        \item[2017] \tab Sigma Xi/SUNY Oswego Office of Research and Sponsored Programs Research Award
+
+    \end{tablist}
+
+    \subsection*{Grants and Fellowships}
+
+    \begin{tablist}
+    	\item Total Awards Received = \$295,500 (Only proposals awarded are listed)
+
+        \item[2019--24] \tab National Science Foundation Graduate Research Fellowship (\$138,000)
+        
+        \item[2019] \tab Syracuse University Dept. of Biology Travel Grant (\$500)
+        
+        \item[2019] \tab Syracuse University Graduate Student Organization Travel Grant (\$500)
+        
+        \item[2018--19] \tab Syracuse University STEM Research Fellowship (\$136,500)
+        
+        \item[2013--17] \tab SUNY Oswego Presidential Scholarship (\$20,000)
+        
+    \end{tablist}
+
+
+
+    \section*{Teaching Experience}
+
+    \subsection*{SUNY Oswego}
+    
+    \begin{itemize}
+    	
+    	\item Microbiology Lab (BIO 310)
+    	\item Molecular and Cellular Biology (BIO 120)
+    	\item Introduction to the Honors Program (HON 150)
+    
+	\end{itemize}
+    	
+
+    \section*{Service}
+    
+    \subsection*{Mentoring}
+
+    \begin{itemize}
+    	
+    	\item	Henry Middleton - Cornell University, Computer Science
+        
+    \end{itemize}
+
+    \subsection*{Outreach}
+
+    \begin{tablist}
+    
+    	\item[2019--] \tab \textbf{Letters to a Pre-Scientist}: A program designed to pair middle school students from low-income schools with scientists at all career levels. Over the course of an academic year I exchanged letters with student discussing what college/graduate school, overcoming obstacles, and careers.
+        
+        \item[2019] \tab \textbf{Frontiers in Science}: Co-led a lab activity for high school students on Drosophila genetics. Students studied flies under dissecting microscopes and identified the various visible mutations. 
+        
+        \item[2018] \tab \textbf{USC McMorrow Neighborhood Academic Initiative}: The NAI is an intensive pre-college enrichment program for low-income students in 6th through 12th grade in the Los Angeles area. I traveled with a group of these student to the Wrigley Marine Science Center on Catalina Island to collect intertidal copepods and conduct short-term observational studies. This introduced the students to evolutionary topics such as the Mother’s curse hypothesis and maintenance of polygenic sex determination. Throughout the year I helped host lab tours for participating teachers and their students.
+        
+        \item[2018] \tab \textbf{Darwin Day Workshop}: I helped facilitate a workshop with ~50 local K-12 teachers on lab activities they can implement in their classrooms to supplement their teaching of evolution.
+
+    \end{tablist}
+
+
+    \section*{Media Coverage}
+
+    \begin{tablist}
+    	
+    	\item[2019] \tab {{\emph{Syracuse University News.}}} Students Earn 2019 National Science Foundation Awards. Apr 24.
+    	
+    	\item[2018]	\tab {{\emph{Wrigley Institute Research Blog.}}} Sex-biased expression in the copepod {{\emph{Tigriopus.}}} May 16.
+        
+    \end{tablist}
+
+    % display today's date as Month Year after a vertical space below the end of the text
+    \begin{center}
+        %\vspace{6em}
+        \vfill
+        Updated \monthyeardate\today
+    \end{center}
+
+
+\end{document}
